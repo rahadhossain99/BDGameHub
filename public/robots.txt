@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fastgamingbd.ai.studio/sitemap.xml
+Sitemap: https://fastgamingbd.ai.studio/sitemap.txt

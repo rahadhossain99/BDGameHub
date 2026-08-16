@@ -1,0 +1,424 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Baloo Da 2', 'Hind Siliguri', 'Noto Sans Bengali', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  /* Custom Clean Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #b2d959;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7ec151;
+  }
+}
+
+.font-bengali {
+  font-family: 'Baloo Da 2', 'Hind Siliguri', 'Noto Sans Bengali', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.font-heading-bn {
+  font-family: 'Baloo Da 2', 'Anek Bangla', 'Hind Siliguri', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.font-serif-bn {
+  font-family: 'Tiro Bangla', 'Baloo Da 2', serif;
+}
+
+.font-display {
+  font-family: 'Plus Jakarta Sans', 'Baloo Da 2', sans-serif;
+}
+
+/* Material Design 3 Elevation Tokens */
+.m3-elevation-1 {
+  box-shadow: 0px 1px 3px 1px rgba(15, 23, 42, 0.06), 0px 1px 2px 0px rgba(15, 23, 42, 0.04);
+}
+
+.m3-elevation-2 {
+  box-shadow: 0px 2px 6px 2px rgba(15, 23, 42, 0.07), 0px 1px 2px 0px rgba(15, 23, 42, 0.04);
+}
+
+.m3-elevation-3 {
+  box-shadow: 0px 4px 14px 3px rgba(15, 23, 42, 0.08), 0px 1px 3px 0px rgba(15, 23, 42, 0.05);
+}
+
+.m3-elevation-4 {
+  box-shadow: 0px 6px 18px 4px rgba(15, 23, 42, 0.1), 0px 2px 5px 0px rgba(15, 23, 42, 0.06);
+}
+
+/* Glassmorphism Classes for Soft Blur Sections */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(178, 217, 89, 0.4);
+}
+
+.glass-card-dark {
+  background: rgba(15, 23, 42, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(178, 217, 89, 0.35);
+}
+
+.glass-badge {
+  background: rgba(178, 217, 89, 0.25);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Custom Grid & Dot Backgrounds */
+.bg-grid-pattern {
+  background-size: 36px 36px;
+  background-image: 
+    linear-gradient(to right, rgba(126, 193, 81, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(126, 193, 81, 0.08) 1px, transparent 1px);
+}
+
+/* Atmospheric Mist & Fog Overlays */
+.mist-fog-overlay {
+  background: radial-gradient(circle at 50% 100%, rgba(126, 193, 81, 0.25) 0%, rgba(6, 78, 59, 0.6) 50%, rgba(15, 23, 42, 0.9) 100%);
+}
+
+.misty-haze-layer {
+  background: linear-gradient(180deg, rgba(255,255,255,0.03) 0%, rgba(126, 193, 81, 0.1) 40%, rgba(6, 78, 59, 0.85) 85%, rgba(15, 23, 42, 0.98) 100%);
+}
+
+.misty-glow-radial {
+  background: radial-gradient(ellipse at center, rgba(254, 210, 79, 0.25) 0%, rgba(178, 217, 89, 0.15) 45%, transparent 75%);
+}
+
+.mist-vignette {
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.6);
+}
+
+@keyframes mist-float {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-8px) scale(1.04);
+    opacity: 0.95;
+  }
+}
+
+.animate-mist-float {
+  animation: mist-float 6s ease-in-out infinite;
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(126, 193, 81, 0.18) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+.bg-dot-pattern-dense {
+  background-image: radial-gradient(rgba(126, 193, 81, 0.22) 1.2px, transparent 1.2px);
+  background-size: 16px 16px;
+}
+
+.bg-dot-pattern-dark {
+  background-image: radial-gradient(rgba(178, 217, 89, 0.25) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+}
+
+.bg-radial-gradient {
+  background: radial-gradient(circle at 50% 30%, rgba(178, 217, 89, 0.15) 0%, rgba(248, 250, 252, 0) 70%);
+}
+
+/* Shimmer and Glow Effects */
+@keyframes shimmer-sweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+.animate-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.animate-shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.35) 50%,
+    transparent 100%
+  );
+  transform: skewX(-20deg);
+  animation: shimmer-sweep 3s infinite;
+  pointer-events: none;
+}
+
+/* Typing Cursor */
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-cursor {
+  animation: cursor-blink 0.8s infinite;
+}
+
+/* Progress fill keyframe for Step tabs */
+@keyframes progress-fill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-progress-fill {
+  animation: progress-fill 5s linear forwards;
+}
+
+/* Continuous Marquee Left-to-Right & Right-to-Left with GPU Acceleration */
+@keyframes marquee-ltr {
+  0% {
+    transform: translate3d(-50%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0%, 0, 0);
+  }
+}
+
+@keyframes marquee-rtl {
+  0% {
+    transform: translate3d(0%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-marquee-ltr {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  animation: marquee-ltr 28s linear infinite;
+}
+
+.animate-marquee-rtl {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  animation: marquee-rtl 28s linear infinite;
+}
+
+.animate-marquee-ltr:hover,
+.animate-marquee-rtl:hover {
+  animation-play-state: paused;
+}
+
+/* Orbital Rotating Keyframes for Revolving Icons with GPU Layering */
+@keyframes orbit-spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes orbit-counter-spin {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+.animate-orbit {
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  animation: orbit-spin 26s linear infinite;
+}
+
+.animate-orbit:hover {
+  animation-play-state: paused;
+}
+
+.animate-counter-orbit {
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  animation: orbit-counter-spin 26s linear infinite;
+}
+
+.animate-orbit:hover .animate-counter-orbit {
+  animation-play-state: paused;
+}
+
+/* Smooth Horizontal Ticker Marquee */
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-ticker {
+  display: flex;
+  width: max-content;
+  animation: ticker-scroll 32s linear infinite;
+}
+
+.animate-ticker:hover {
+  animation-play-state: paused;
+}
+
+/* Kinetic Vertical Text Slide Animation */
+@keyframes slide-up-down {
+  0%, 20% {
+    transform: translateY(0%);
+  }
+  25%, 45% {
+    transform: translateY(-20%);
+  }
+  50%, 70% {
+    transform: translateY(-40%);
+  }
+  75%, 95% {
+    transform: translateY(-60%);
+  }
+  100% {
+    transform: translateY(-80%);
+  }
+}
+
+.animate-vertical-slide {
+  animation: slide-up-down 14s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+
+/* Pulse soft floating animations */
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: float-slow 4s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-slow 4s ease-in-out 2s infinite;
+}
+
+/* Dynamic Multi-Color Rainbow Animated Underline & Borders */
+@keyframes rainbow-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-rainbow-shift {
+  background-size: 300% 300%;
+  animation: rainbow-shift 4s ease infinite;
+}
+
+.rainbow-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.rainbow-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 4px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #7EC151, #FED24F, #FFF449, #B2D959, #10B981, #FED24F, #7EC151);
+  background-size: 300% 100%;
+  animation: rainbow-shift 3s linear infinite;
+  box-shadow: 0 2px 8px rgba(126, 193, 81, 0.4);
+}
+
+.rainbow-glow-box {
+  position: relative;
+  background: linear-gradient(90deg, #7EC151, #FED24F, #FFF449, #B2D959, #10B981, #FED24F, #7EC151);
+  background-size: 300% 300%;
+  animation: rainbow-shift 5s ease infinite;
+}
+
+/* Floating Coins Particle Keyframes */
+@keyframes coin-float-burst {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) scale(0.6) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--tx, 40px), var(--ty, -60px)) scale(1.2) rotate(360deg);
+  }
+}
+
+.animate-coin-burst {
+  animation: coin-float-burst 1.2s ease-out forwards;
+}
+
+/* Pulsing Radial Rings */
+@keyframes ring-expand {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(0.85);
+    opacity: 0.8;
+  }
+}
+
+.animate-ring-pulse {
+  animation: ring-expand 4s ease-in-out infinite;
+}
+
