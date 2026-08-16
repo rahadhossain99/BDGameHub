@@ -15,6 +15,7 @@ import { motion } from 'motion/react';
 import { CORE_VALUES } from '../data/mockData';
 import { Language } from '../types';
 import { AnimatedCounter } from './AnimatedCounter';
+import { LeadershipSection } from './LeadershipSection';
 
 interface AboutSectionProps {
   currentLang: Language;
@@ -142,6 +143,9 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
             ))}
           </div>
         </div>
+
+        {/* Founders & Leadership Team Section */}
+        <LeadershipSection currentLang={currentLang} />
 
         {/* Banner: বাংলাদেশের গেমারদের আস্থা */}
         <motion.div 

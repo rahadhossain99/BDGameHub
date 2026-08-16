@@ -1,5 +1,20 @@
 import React from 'react';
-import { Download, ShieldCheck, Heart, Sparkles, Trophy, PlayCircle } from 'lucide-react';
+import { 
+  Download, 
+  ShieldCheck, 
+  Heart, 
+  Sparkles, 
+  Trophy, 
+  PlayCircle,
+  Briefcase,
+  Smartphone,
+  Globe2,
+  Mail,
+  CheckCircle2,
+  Crown,
+  Layers,
+  ExternalLink
+} from 'lucide-react';
 import { Language, PageView } from '../types';
 import { BRAND_ASSETS } from '../data/mockData';
 
@@ -15,7 +30,7 @@ export const Footer: React.FC<FooterProps> = ({
   onOpenDownloadModal,
 }) => {
   return (
-    <footer className="bg-[#0F172A] text-white pt-14 pb-20 lg:pb-12 border-t border-[#B2D959]/30">
+    <footer className="bg-[#0B1120] text-white pt-14 pb-24 lg:pb-12 border-t border-[#7EC151]/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Top Branding & Navigation Row */}
@@ -77,6 +92,7 @@ export const Footer: React.FC<FooterProps> = ({
         {/* Payment Methods Supported Bar */}
         <div className="py-6 flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-white/10 text-xs text-slate-300 font-bengali">
           <div className="flex items-center space-x-2">
+            <ShieldCheck className="w-4 h-4 text-[#7EC151]" />
             <span>{currentLang === 'bn' ? 'স্বীকৃত ও নিরাপদ পেমেন্ট মেথডসমূহ:' : 'Supported Instant Payment Gateways:'}</span>
           </div>
           <div className="flex flex-wrap items-center gap-2.5 text-[11px] font-bold">
@@ -100,6 +116,93 @@ export const Footer: React.FC<FooterProps> = ({
               <img src={BRAND_ASSETS.payments.upay} alt="Upay" className="h-5 w-auto object-contain bg-white rounded px-1 py-0.5" referrerPolicy="no-referrer" />
               <span className="text-amber-300 font-extrabold">Upay</span>
             </div>
+          </div>
+        </div>
+
+        {/* Executive Leadership & Engineering Team Showcase (Sleek, Professional & Organized) */}
+        <div className="py-6 border-b border-white/10">
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
+            
+            {/* Section Header with Professional Icon */}
+            <div className="flex items-center space-x-2.5">
+              <div className="p-1.5 rounded-lg bg-[#FED24F]/15 border border-[#FED24F]/40 text-[#FED24F]">
+                <Crown className="w-4 h-4" />
+              </div>
+              <div>
+                <span className="text-xs font-black uppercase tracking-wider text-slate-200 font-bengali">
+                  {currentLang === 'bn' ? 'নির্বাহী পরিষদ ও কারিগরি টিম' : 'Executive Leadership & Engineering'}
+                </span>
+                <p className="text-[11px] text-slate-400 font-bengali">
+                  {currentLang === 'bn' ? 'প্ল্যাটফর্মের প্রতিষ্ঠাতা ও মূল ডেভেলপারগণ' : 'Founders & Core System Architects'}
+                </p>
+              </div>
+            </div>
+
+            {/* 2 Clean Structured Founder Mini-Cards */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full lg:w-auto">
+              
+              {/* Jibon Hossain Card */}
+              <div className="bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl p-3 sm:px-4 sm:py-3 transition-all flex items-center justify-between space-x-3">
+                <div className="flex items-center space-x-3">
+                  <div className="w-8 h-8 rounded-xl bg-[#FED24F]/20 border border-[#FED24F]/50 flex items-center justify-center shrink-0">
+                    <Smartphone className="w-4 h-4 text-[#FED24F]" />
+                  </div>
+                  <div>
+                    <div className="flex items-center space-x-1.5">
+                      <span className="text-xs font-black text-white font-heading-bn">
+                        {currentLang === 'bn' ? 'জীবন হোসেন' : 'Jibon Hossain'}
+                      </span>
+                      <span className="text-[10px] font-bold text-[#FED24F] bg-[#FED24F]/10 px-1.5 py-0.2 rounded border border-[#FED24F]/30">
+                        CEO
+                      </span>
+                    </div>
+                    <p className="text-[11px] text-slate-300 font-bengali">
+                      {currentLang === 'bn' ? 'লিড মোবাইল অ্যাপ ডেভেলপার' : 'Lead Mobile App Developer'}
+                    </p>
+                  </div>
+                </div>
+                
+                <a 
+                  href="mailto:jibonhossen2026@gmail.com" 
+                  className="p-1.5 rounded-lg bg-white/10 hover:bg-[#FED24F]/30 text-slate-300 hover:text-white transition-colors" 
+                  title="jibonhossen2026@gmail.com"
+                >
+                  <Mail className="w-3.5 h-3.5" />
+                </a>
+              </div>
+
+              {/* Rahad Hossain Card */}
+              <div className="bg-white/5 hover:bg-white/10 border border-white/10 rounded-2xl p-3 sm:px-4 sm:py-3 transition-all flex items-center justify-between space-x-3">
+                <div className="flex items-center space-x-3">
+                  <div className="w-8 h-8 rounded-xl bg-[#7EC151]/20 border border-[#7EC151]/50 flex items-center justify-center shrink-0">
+                    <Globe2 className="w-4 h-4 text-[#7EC151]" />
+                  </div>
+                  <div>
+                    <div className="flex items-center space-x-1.5">
+                      <span className="text-xs font-black text-white font-heading-bn">
+                        {currentLang === 'bn' ? 'রাহাদ হোসেন' : 'Rahad Hossain'}
+                      </span>
+                      <span className="text-[10px] font-bold text-[#7EC151] bg-[#7EC151]/10 px-1.5 py-0.2 rounded border border-[#7EC151]/30">
+                        COO
+                      </span>
+                    </div>
+                    <p className="text-[11px] text-slate-300 font-bengali">
+                      {currentLang === 'bn' ? 'লিড ওয়েব ডেভেলপার' : 'Lead Web Developer'}
+                    </p>
+                  </div>
+                </div>
+
+                <a 
+                  href="mailto:hossainrahad632@gmail.com" 
+                  className="p-1.5 rounded-lg bg-white/10 hover:bg-[#7EC151]/30 text-slate-300 hover:text-white transition-colors" 
+                  title="hossainrahad632@gmail.com"
+                >
+                  <Mail className="w-3.5 h-3.5" />
+                </a>
+              </div>
+
+            </div>
+
           </div>
         </div>
 

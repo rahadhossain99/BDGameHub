@@ -19,6 +19,7 @@ import {
 import { motion } from 'motion/react';
 import { BRAND_ASSETS } from '../data/mockData';
 import { Language, PageView } from '../types';
+import { LeadershipSection } from './LeadershipSection';
 
 interface ContactSectionProps {
   currentLang: Language;
@@ -419,6 +420,9 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
           </div>
 
         </div>
+
+        {/* Leadership & Founders Info */}
+        <LeadershipSection currentLang={currentLang} />
 
       </div>
     </section>

@@ -21,6 +21,7 @@ import { motion } from 'motion/react';
 import { Language, PageView } from '../types';
 import { STATS, CORE_VALUES, BRAND_ASSETS } from '../data/mockData';
 import { AnimatedCounter } from './AnimatedCounter';
+import { LeadershipSection } from './LeadershipSection';
 
 interface FeaturesSectionProps {
   currentLang: Language;
@@ -311,6 +312,9 @@ export const FeaturesSection: React.FC<FeaturesSectionProps> = ({
             </motion.div>
           ))}
         </div>
+
+        {/* Executive Founders & Lead Developer Profile Block */}
+        <LeadershipSection currentLang={currentLang} />
 
       </div>
     </section>
