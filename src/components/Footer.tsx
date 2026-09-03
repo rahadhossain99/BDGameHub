@@ -42,7 +42,7 @@ export const Footer: React.FC<FooterProps> = ({
               <div className="absolute -inset-2 bg-[#7EC151]/20 rounded-full blur-md opacity-60 group-hover:opacity-100 transition-opacity pointer-events-none" />
               <img
                 src={BRAND_ASSETS.logo}
-                alt="Fast Gaming Logo"
+                alt="Last Gaming Logo"
                 className="relative w-full h-full object-contain filter drop-shadow-[0_4px_10px_rgba(126,193,81,0.35)]"
                 referrerPolicy="no-referrer"
               />
@@ -51,7 +51,7 @@ export const Footer: React.FC<FooterProps> = ({
             <div>
               <div className="flex items-center space-x-1.5">
                 <span className="font-display font-extrabold text-xl tracking-tight text-white group-hover:text-[#B2D959] transition-colors">
-                  FAST GAMING BD
+                  LAST GAMING BD
                 </span>
                 <span className="text-[10px] bg-[#7EC151]/20 text-[#B2D959] font-bold px-1.5 py-0.5 rounded border border-[#7EC151]/40">
                   OFFICIAL
@@ -209,7 +209,7 @@ export const Footer: React.FC<FooterProps> = ({
         {/* Bottom Copyright & Legal Links */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 font-bengali">
           <p>
-            © 2026 Fast Gaming BD. {currentLang === 'bn' ? 'সর্বস্বত্ব সংরক্ষিত।' : 'All rights reserved.'}
+            © 2026 Last Gaming BD. {currentLang === 'bn' ? 'সর্বস্বত্ব সংরক্ষিত।' : 'All rights reserved.'}
           </p>
 
           <div className="flex items-center space-x-6 text-slate-300">

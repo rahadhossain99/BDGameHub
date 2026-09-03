@@ -83,7 +83,7 @@ export const HowToStartSection: React.FC<HowToStartSectionProps> = ({
           
           <p className="text-[#334155] text-base sm:text-lg font-bengali max-w-2xl mx-auto leading-relaxed">
             {currentLang === 'bn' 
-              ? 'নিচের ৪টি ধাপে স্বয়ংক্রিয়ভাবে দেখুন কিভাবে Fast Gaming অ্যাপ ইনস্টল করবেন ও খেলা শুরু করবেন।'
+              ? 'নিচের ৪টি ধাপে স্বয়ংক্রিয়ভাবে দেখুন কিভাবে Last Gaming অ্যাপ ইনস্টল করবেন ও খেলা শুরু করবেন।'
               : 'Watch the automated step-by-step walkthrough to download, install, and start winning.'}
           </p>
         </div>

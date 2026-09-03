@@ -462,7 +462,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                   <div className="relative w-32 h-32 sm:w-40 sm:h-40 flex items-center justify-center">
                     <img
                       src={BRAND_ASSETS.logo}
-                      alt="Fast Gaming Official Logo"
+                      alt="Last Gaming Official Logo"
                       className={`w-full h-full object-contain filter transition-all duration-300 select-none ${
                         isOrbitPaused 
                           ? 'drop-shadow-[0_8px_20px_rgba(251,191,36,0.5)] contrast-110' 
@@ -707,8 +707,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <blockquote className="relative z-10 text-[#0F172A] text-base sm:text-lg md:text-xl leading-relaxed font-bengali font-bold px-4 py-2">
               <span className="text-[#7EC151] text-2xl font-black mr-1">“</span>
               {currentLang === 'bn'
-                ? 'Fast Gaming অ্যাপে খেলুন আপনার পছন্দের Free Fire টুর্নামেন্ট (Solo, Duo, Squad, Clash Squad ও 1v1) এবং জিতে নিন আকর্ষণীয় সব নগদ অর্থ পুরস্কার। বিকাশ ও নগদে ২ মিনিটে উইথড্র করুন।'
-                : 'Play your favorite Free Fire custom tournaments (Solo, Duo, Squad, Clash Squad & 1v1) on the Fast Gaming app and win exciting real cash prizes with instant 2-minute bKash and Nagad withdrawals.'}
+                ? 'Last Gaming অ্যাপে খেলুন আপনার পছন্দের Free Fire টুর্নামেন্ট (Solo, Duo, Squad, Clash Squad ও 1v1) এবং জিতে নিন আকর্ষণীয় সব নগদ অর্থ পুরস্কার। বিকাশ ও নগদে ২ মিনিটে উইথড্র করুন।'
+                : 'Play your favorite Free Fire custom tournaments (Solo, Duo, Squad, Clash Squad & 1v1) on the Last Gaming app and win exciting real cash prizes with instant 2-minute bKash and Nagad withdrawals.'}
               <span className="text-[#7EC151] text-2xl font-black ml-1">”</span>
             </blockquote>
 
@@ -725,7 +725,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="relative rounded-3xl overflow-hidden shadow-xl border-2 border-[#B2D959]/70 bg-white">
             <img
               src={BRAND_ASSETS.banner}
-              alt="Fast Gaming Official Banner"
+              alt="Last Gaming Official Banner"
               className="w-full h-auto max-h-[460px] object-cover object-center"
               decoding="async"
               referrerPolicy="no-referrer"

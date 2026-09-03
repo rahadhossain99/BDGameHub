@@ -407,7 +407,7 @@ export const TournamentsSection: React.FC<TournamentsSectionProps> = ({
                   className="w-full bg-[#7EC151] hover:bg-[#72b047] text-white font-extrabold py-3.5 px-4 rounded-xl text-sm transition-all shadow-md flex items-center justify-center space-x-2 cursor-pointer"
                 >
                   <Download className="w-4 h-4" />
-                  <span>{currentLang === 'bn' ? 'অফিসিয়াল অ্যাপ ডাউনলোড করুন' : 'Download Fast Gaming App'}</span>
+                  <span>{currentLang === 'bn' ? 'অফিসিয়াল অ্যাপ ডাউনলোড করুন' : 'Download Last Gaming App'}</span>
                 </button>
               </div>
             )}

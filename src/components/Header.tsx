@@ -45,7 +45,7 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="relative flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
               <img
                 src={BRAND_ASSETS.logo}
-                alt="Fast Gaming Logo"
+                alt="Last Gaming Logo"
                 className="w-10 h-10 sm:w-12 sm:h-12 object-contain drop-shadow-[0_2px_8px_rgba(126,193,81,0.3)] select-none"
                 referrerPolicy="no-referrer"
               />
@@ -54,7 +54,7 @@ export const Header: React.FC<HeaderProps> = ({
             <div>
               <div className="flex items-center space-x-1.5">
                 <span className="font-display font-extrabold text-xl tracking-tight text-[#0F172A] group-hover:text-[#7EC151] transition-colors">
-                  FAST GAMING
+                  LAST GAMING
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-extrabold bg-[#B2D959]/30 text-[#0F172A] border border-[#B2D959]/60 tracking-wider">
                   BD

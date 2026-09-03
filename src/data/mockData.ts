@@ -4,15 +4,15 @@ export const TUTORIAL_VIDEOS: TutorialVideo[] = [
   {
     id: 'how-to-play-full',
     youtubeId: 'BJQpGHdOJ2A',
-    titleBn: 'Fast Gaming অ্যাপে কিভাবে টুর্নামেন্ট খেলবেন ও টাকা জিতবেন? (সম্পূর্ণ গাইড)',
-    titleEn: 'How to Play Tournaments & Win Money on Fast Gaming App (Complete Guide)',
+    titleBn: 'Last Gaming অ্যাপে কিভাবে টুর্নামেন্ট খেলবেন ও টাকা জিতবেন? (সম্পূর্ণ গাইড)',
+    titleEn: 'How to Play Tournaments & Win Money on Last Gaming App (Complete Guide)',
     categoryBn: 'প্রধান টিউটোরিয়াল',
     categoryEn: 'Main Tutorial',
     duration: '4:25 মিনিট',
     views: '145K+ ভিউজ',
     thumbnailUrl: 'https://raw.githubusercontent.com/rahadhossain99/vector-transparent-img/33568bf62588e751103772c19d5b82a1890c2bda/1d73da971832b610cc566e53dc74648e.jpg',
-    descriptionBn: 'এই ভিডিওতে সহজে দেখানো হয়েছে কিভাবে Fast Gaming অ্যাপ ডাউনলোড করবেন, একাউন্ট খুলবেন, টুর্নামেন্টে জয়েন করবেন, রুম কোড নিয়ে গেমে ঢুকবেন এবং জেতার পর সরাসরি বিকাশ/নগদে টাকা তুলবেন।',
-    descriptionEn: 'Learn step-by-step how to download the Fast Gaming app, register an account, join matches, grab automated room codes, and withdraw winning cash directly to bKash & Nagad.',
+    descriptionBn: 'এই ভিডিওতে সহজে দেখানো হয়েছে কিভাবে Last Gaming অ্যাপ ডাউনলোড করবেন, একাউন্ট খুলবেন, টুর্নামেন্টে জয়েন করবেন, রুম কোড নিয়ে গেমে ঢুকবেন এবং জেতার পর সরাসরি বিকাশ/নগদে টাকা তুলবেন।',
+    descriptionEn: 'Learn step-by-step how to download the Last Gaming app, register an account, join matches, grab automated room codes, and withdraw winning cash directly to bKash & Nagad.',
     steps: [
       {
         titleBn: 'ধাপ ১: টুর্নামেন্ট নির্বাচন ও জয়েন',
@@ -60,8 +60,8 @@ export const TUTORIAL_VIDEOS: TutorialVideo[] = [
     duration: '2:15 মিনিট',
     views: '98K+ ভিউজ',
     thumbnailUrl: 'https://raw.githubusercontent.com/rahadhossain99/vector-transparent-img/33568bf62588e751103772c19d5b82a1890c2bda/257a454319a418e43e2d580bd4846a0b.jpg',
-    descriptionBn: 'Fast Gaming অ্যাপে সম্পূর্ণ স্বয়ংক্রিয় পেমেন্ট গেটওয়ের মাধ্যমে মাত্র ১ মিনিটে বিকাশ, নগদ বা রকেট থেকে টাকা অ্যাড করার সহজ উপায়।',
-    descriptionEn: 'A clear guide on depositing balance into your Fast Gaming wallet within 1 minute using automated bKash, Nagad & Rocket gateways.',
+    descriptionBn: 'Last Gaming অ্যাপে সম্পূর্ণ স্বয়ংক্রিয় পেমেন্ট গেটওয়ের মাধ্যমে মাত্র ১ মিনিটে বিকাশ, নগদ বা রকেট থেকে টাকা অ্যাড করার সহজ উপায়।',
+    descriptionEn: 'A clear guide on depositing balance into your Last Gaming wallet within 1 minute using automated bKash, Nagad & Rocket gateways.',
     steps: [
       {
         titleBn: 'ওয়ালেটে গিয়ে Add Money ক্লিক করুন',
@@ -178,12 +178,12 @@ export const STEP_GUIDES: StepGuide[] = [
     iconType: 'download',
     bulletsBn: [
       'নিচের ডাউনলোড বাটনে ক্লিক করে অ্যাপ ডাউনলোড শুরু করুন',
-      'ফাইলটির নাম হবে fastgamingbd.apk (বা gamezonebd.apk)',
+      'ফাইলটির নাম হবে lastgamingbd.apk',
       'ডাউনলোড সম্পন্ন হওয়া পর্যন্ত অপেক্ষা করুন'
     ],
     bulletsEn: [
       'Click the download button below to start APK download',
-      'The file name will be fastgamingbd.apk',
+      'The file name will be lastgamingbd.apk',
       'Wait until the download finishes completely'
     ]
   },
@@ -394,7 +394,7 @@ export const FAQS: FaqItem[] = [
     category: 'download',
     questionBn: 'এপিকে (APK) ফাইল কি শতভাগ নিরাপদ?',
     questionEn: 'Is the APK file 100% safe & secure?',
-    answerBn: 'হ্যাঁ, সম্পূর্ণ নিরাপদ! Fast Gaming BD এর অফিসিয়াল APK ফাইলটি গুগল প্লে প্রটেক্ট ও সিকিউরিটি স্ক্যানার দ্বারা সম্পূর্ণ ভেরিফাইড। এতে কোনো ম্যালওয়্যার বা ক্ষতিকারক ফাইল নেই। এটি শুধুমাত্র গুগল পলিসির কারণে প্লে স্টোরের বাইরে সরাসরি ওয়েবসাইট থেকে ডাউনলোড করতে হয়।',
+    answerBn: 'হ্যাঁ, সম্পূর্ণ নিরাপদ! Last Gaming BD এর অফিসিয়াল APK ফাইলটি গুগল প্লে প্রটেক্ট ও সিকিউরিটি স্ক্যানার দ্বারা সম্পূর্ণ ভেরিফাইড। এতে কোনো ম্যালওয়্যার বা ক্ষতিকারক ফাইল নেই। এটি শুধুমাত্র গুগল পলিসির কারণে প্লে স্টোরের বাইরে সরাসরি ওয়েবসাইট থেকে ডাউনলোড করতে হয়।',
     answerEn: 'Yes, 100% safe! Our official APK is thoroughly scanned and verified by Google Play Protect without any malware. Direct download is hosted because of real-money tournament guidelines.'
   },
   {
@@ -410,8 +410,8 @@ export const FAQS: FaqItem[] = [
     category: 'gameplay',
     questionBn: 'অ্যাপ কি সব Android ফোনে মসৃণভাবে চলবে?',
     questionEn: 'Does the app run smoothly on all Android devices?',
-    answerBn: 'হ্যাঁ! Fast Gaming অ্যাপটি অত্যন্ত লাইটওয়েট (মাত্র ১৫ এমবি) এবং Android 6.0 থেকে শুরু করে সর্বশেষ Android 15 পর্যন্ত যেকোনো ফোনে স্মুথভাবে কাজ করে।',
-    answerEn: 'Yes! Fast Gaming app is super lightweight (~15MB) and optimized for Android 6.0 up to Android 15.'
+    answerBn: 'হ্যাঁ! Last Gaming অ্যাপটি অত্যন্ত লাইটওয়েট (মাত্র ১৫ এমবি) এবং Android 6.0 থেকে শুরু করে সর্বশেষ Android 15 পর্যন্ত যেকোনো ফোনে স্মুথভাবে কাজ করে।',
+    answerEn: 'Yes! Last Gaming app is super lightweight (~15MB) and optimized for Android 6.0 up to Android 15.'
   },
   {
     id: 'faq-4',
@@ -426,7 +426,7 @@ export const FAQS: FaqItem[] = [
     category: 'account',
     questionBn: 'যেকোনো সমস্যায় আমি কিভাবে সহায়তা পেতে পারি?',
     questionEn: 'How can I get immediate customer support?',
-    answerBn: 'আমাদের রয়েছে ২৪/৭ সক্রিয় সাপোর্ট টিম। আপনি টেলিগ্রাম (@fastgamingbd_official), হোয়াটসঅ্যাপ (+880 1400-389396), অথবা অ্যাপের লাইভ চ্যাট থেকে যেকোনো সময় সাহায্য নিতে পারেন।',
+    answerBn: 'আমাদের রয়েছে ২৪/৭ সক্রিয় সাপোর্ট টিম। আপনি টেলিগ্রাম (@lastgamingbd), হোয়াটসঅ্যাপ (+880 1400-389396), অথবা অ্যাপের লাইভ চ্যাট থেকে যেকোনো সময় সাহায্য নিতে পারেন।',
     answerEn: 'We have 24/7 active support via Telegram, WhatsApp hotline, and live in-app chat.'
   }
 ];

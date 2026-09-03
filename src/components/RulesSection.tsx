@@ -62,7 +62,7 @@ export const RulesSection: React.FC<RulesSectionProps> = ({
           </h1>
 
           <p className="text-[#334155] text-sm sm:text-base font-bengali">
-            Fast Gaming BD টুর্নামেন্টের সার্বিক নিয়মাবলী, ইন-গেম নীতিমালা এবং ফেয়ার প্লে গাইডলাইন।
+            Last Gaming BD টুর্নামেন্টের সার্বিক নিয়মাবলী, ইন-গেম নীতিমালা এবং ফেয়ার প্লে গাইডলাইন।
           </p>
         </div>
 

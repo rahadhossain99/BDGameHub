@@ -566,7 +566,7 @@ export const TutorialSection: React.FC<TutorialSectionProps> = ({
                 className="w-full flex items-center justify-center space-x-2 bg-[#7EC151] hover:bg-[#72b047] text-white font-black py-3.5 px-4 rounded-2xl text-sm sm:text-base transition-all shadow-md cursor-pointer font-bengali"
               >
                 <Download className="w-4.5 h-4.5 text-white" />
-                <span>{currentLang === 'bn' ? 'এখনই অফিসিয়াল অ্যাপ ডাউনলোড করুন (APK)' : 'Download Fast Gaming APK'}</span>
+                <span>{currentLang === 'bn' ? 'এখনই অফিসিয়াল অ্যাপ ডাউনলোড করুন (APK)' : 'Download Last Gaming APK'}</span>
               </button>
             </div>
 

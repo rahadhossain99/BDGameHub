@@ -68,7 +68,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
         <div>
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl sm:text-4xl font-black text-[#0F172A] font-heading-bn mb-3">
-              {currentLang === 'bn' ? 'সংখ্যায় Fast Gaming BD' : 'Fast Gaming BD in Numbers'}
+              {currentLang === 'bn' ? 'সংখ্যায় Last Gaming BD' : 'Last Gaming BD in Numbers'}
             </h2>
             <p className="text-[#475569] text-base sm:text-lg font-bengali">
               {currentLang === 'bn'
@@ -166,8 +166,8 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
 
             <p className="text-slate-300 text-sm sm:text-base font-bengali leading-relaxed">
               {currentLang === 'bn'
-                ? 'Fast Gaming BD শুধুমাত্র একটি অ্যাপ নয়, এটি বাংলাদেশের eSports কমিউনিটির জন্য একটি নির্ভরযোগ্য পরিবার ও আস্থার প্রতীক।'
-                : 'Fast Gaming BD is not just an app—it is a dependable family and platform for competitive eSports players.'}
+                ? 'Last Gaming BD শুধুমাত্র একটি অ্যাপ নয়, এটি বাংলাদেশের eSports কমিউনিটির জন্য একটি নির্ভরযোগ্য পরিবার ও আস্থার প্রতীক।'
+                : 'Last Gaming BD is not just an app—it is a dependable family and platform for competitive eSports players.'}
             </p>
           </div>
 

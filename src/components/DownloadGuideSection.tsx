@@ -55,14 +55,14 @@ export const DownloadGuideSection: React.FC<DownloadGuideSectionProps> = ({
 
           <h1 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] font-heading-bn tracking-tight">
             {currentLang === 'bn' 
-              ? 'Fast Gaming অ্যাপ ডাউনলোড ও ইনস্টলেশন গাইড'
-              : 'Fast Gaming App Download & Installation Guide'}
+              ? 'Last Gaming অ্যাপ ডাউনলোড ও ইনস্টলেশন গাইড'
+              : 'Last Gaming App Download & Installation Guide'}
           </h1>
 
           <p className="text-[#334155] text-sm sm:text-base font-bengali">
             {currentLang === 'bn'
-              ? 'আপনার অ্যান্ড্রয়েড ডিভাইসে Fast Gaming অ্যাপ ডাউনলোড, ইনস্টল ও সেটআপ করার বিস্তারিত নির্দেশিকা।'
-              : 'Detailed step-by-step instructions to download, install and configure Fast Gaming APK on your Android device.'}
+              ? 'আপনার অ্যান্ড্রয়েড ডিভাইসে Last Gaming অ্যাপ ডাউনলোড, ইনস্টল ও সেটআপ করার বিস্তারিত নির্দেশিকা।'
+              : 'Detailed step-by-step instructions to download, install and configure Last Gaming APK on your Android device.'}
           </p>
 
           <div className="pt-2">
@@ -87,7 +87,7 @@ export const DownloadGuideSection: React.FC<DownloadGuideSectionProps> = ({
         <div className="relative rounded-3xl overflow-hidden shadow-xl border border-[#B2D959] bg-white">
           <img
             src={BRAND_ASSETS.banner}
-            alt="Fast Gaming App"
+            alt="Last Gaming App"
             className="w-full h-48 sm:h-64 object-cover object-center"
             referrerPolicy="no-referrer"
           />
@@ -96,11 +96,11 @@ export const DownloadGuideSection: React.FC<DownloadGuideSectionProps> = ({
             <div className="flex items-center space-x-3.5 text-left">
               {/* Seamless Logo */}
               <div className="w-12 h-12 flex items-center justify-center shrink-0">
-                <img src={BRAND_ASSETS.logo} alt="Fast Gaming" className="w-full h-full object-contain drop-shadow-sm" referrerPolicy="no-referrer" />
+                <img src={BRAND_ASSETS.logo} alt="Last Gaming" className="w-full h-full object-contain drop-shadow-sm" referrerPolicy="no-referrer" />
               </div>
               <div>
                 <h4 className="text-base sm:text-lg font-black text-[#0F172A] font-heading-bn">
-                  {currentLang === 'bn' ? 'ফাস্ট গেমিং অফিসিয়াল অ্যান্ড্রয়েড অ্যাপ' : 'Fast Gaming Official Android App'}
+                  {currentLang === 'bn' ? 'লাস্ট গেমিং অফিসিয়াল অ্যান্ড্রয়েড অ্যাপ' : 'Last Gaming Official Android App'}
                 </h4>
                 <p className="text-xs text-[#334155] font-bengali">
                   {currentLang === 'bn' ? 'বিকাশ, নগদ, রকেট ও উপায় ইনস্ট্যান্ট ক্যাশআউট সমর্থিত' : 'Supports Instant bKash, Nagad, Rocket & Upay'}

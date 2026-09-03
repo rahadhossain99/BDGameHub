@@ -67,8 +67,8 @@ export const LeadershipSection: React.FC<LeadershipSectionProps> = ({ currentLan
       nameBn: 'জীবন হোসেন',
       email: 'jibonhossen2026@gmail.com',
       avatar: 'https://raw.githubusercontent.com/rahadhossain99/vector-transparent-img/13e9f6337f9a0e592e138bbc73186654484880ed/KnzPNU_a.jpg',
-      bioBn: 'Fast Gaming BD-এর কৌশলগত প্রতিষ্ঠাতা ও মূল অ্যান্ড্রয়েড অ্যাপ আর্কিটেক্ট। টুর্নামেন্ট রুম অটোমেশন, অ্যান্টি-চিট সিকিউরিটি ও প্ল্যাটফর্ম ইনোভেশনের রূপকার।',
-      bioEn: 'Founder and Lead Mobile App Developer of Fast Gaming BD. Architect of automated match rooms, anti-cheat security, and executive operations.',
+      bioBn: 'Last Gaming BD-এর কৌশলগত প্রতিষ্ঠাতা ও মূল অ্যান্ড্রয়েড অ্যাপ আর্কিটেক্ট। টুর্নামেন্ট রুম অটোমেশন, অ্যান্টি-চিট সিকিউরিটি ও প্ল্যাটফর্ম ইনোভেশনের রূপকার।',
+      bioEn: 'Founder and Lead Mobile App Developer of Last Gaming BD. Architect of automated match rooms, anti-cheat security, and executive operations.',
       skills: [
         { title: 'Android App Dev', titleBn: 'অ্যান্ড্রয়েড অ্যাপ ইঞ্জিন', icon: Smartphone },
         { title: 'Room Automation APIs', titleBn: 'রুম অটোমেশন এপিআই', icon: Bot },
@@ -99,7 +99,7 @@ export const LeadershipSection: React.FC<LeadershipSectionProps> = ({ currentLan
       email: 'hossainrahad632@gmail.com',
       avatar: 'https://raw.githubusercontent.com/rahadhossain99/vector-transparent-img/4b02b5347051820728d1ce144a7c600ea262bd09/Adobe%20Express%20-%20file.png',
       bioBn: 'সম্পূর্ণ ওয়েবসাইট ও ওয়েব প্ল্যাটফর্মের প্রতিষ্ঠাতা ও ডেভেলপার। অত্যাধুনিক ফুল-স্ট্যাক ওয়েব আর্কিটেকচার, ইউজার ইন্টারফেস ও স্মুথ অপারেশন পরিচালনার দায়িত্বে নিয়োজিত।',
-      bioEn: 'Creator & Lead Full-Stack Web Developer of the Fast Gaming web ecosystem. Overseeing operations, high-performance UI engineering, and web automation.',
+      bioEn: 'Creator & Lead Full-Stack Web Developer of the Last Gaming web ecosystem. Overseeing operations, high-performance UI engineering, and web automation.',
       skills: [
         { title: 'Full-Stack Web Dev', titleBn: 'ফুল-স্ট্যাক ওয়েব সিস্টেম', icon: Globe2 },
         { title: 'Modern UI/UX Design', titleBn: 'মডার্ন ইউআই/ইউএক্স', icon: Palette },
@@ -149,8 +149,8 @@ export const LeadershipSection: React.FC<LeadershipSectionProps> = ({ currentLan
 
           <p className="text-sm sm:text-base text-[#475569] font-bengali leading-relaxed">
             {currentLang === 'bn'
-              ? 'Fast Gaming BD-এর পেছনের মূল আর্কিটেক্ট ও ডেভেলপারদের পরিচিতি—যাঁদের উদ্ভাবনে তৈরি হয়েছে দেশের শীর্ষ ফ্রি ফায়ার টুর্নামেন্ট প্ল্যাটফর্ম।'
-              : 'The innovative minds powering Fast Gaming BD through mobile app development, full-stack web engineering, and seamless operations.'}
+              ? 'Last Gaming BD-এর পেছনের মূল আর্কিটেক্ট ও ডেভেলপারদের পরিচিতি—যাঁদের উদ্ভাবনে তৈরি হয়েছে দেশের শীর্ষ ফ্রি ফায়ার টুর্নামেন্ট প্ল্যাটফর্ম।'
+              : 'The innovative minds powering Last Gaming BD through mobile app development, full-stack web engineering, and seamless operations.'}
           </p>
         </div>
 

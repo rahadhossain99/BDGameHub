@@ -74,7 +74,7 @@ export const FeaturesSection: React.FC<FeaturesSectionProps> = ({
             className="inline-flex items-center space-x-2 bg-[#B2D959]/25 text-[#0F172A] px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider font-bengali shadow-2xs border border-[#B2D959]"
           >
             <Sparkles className="w-4 h-4 text-[#7EC151]" />
-            <span>{currentLang === 'bn' ? 'কেন Fast Gaming BD সেরা?' : 'Why Choose Fast Gaming BD?'}</span>
+            <span>{currentLang === 'bn' ? 'কেন Last Gaming BD সেরা?' : 'Why Choose Last Gaming BD?'}</span>
           </motion.div>
 
           <motion.h2 

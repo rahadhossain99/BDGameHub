@@ -84,14 +84,14 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({
           <div className="w-18 h-18 flex items-center justify-center mx-auto">
             <img
               src={BRAND_ASSETS.logo}
-              alt="Fast Gaming Logo"
+              alt="Last Gaming Logo"
               className="w-full h-full object-contain drop-shadow-[0_4px_12px_rgba(126,193,81,0.35)]"
               referrerPolicy="no-referrer"
             />
           </div>
 
           <h3 className="text-2xl font-black text-[#0F172A] font-bengali">
-            {currentLang === 'bn' ? 'Fast Gaming APK ডাউনলোড' : 'Download Fast Gaming APK'}
+            {currentLang === 'bn' ? 'Last Gaming APK ডাউনলোড' : 'Download Last Gaming APK'}
           </h3>
 
           <p className="text-xs sm:text-sm text-slate-500 font-bengali">
@@ -106,7 +106,7 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({
           <div className="flex items-center justify-between text-xs font-bold text-[#0F172A] mb-2 font-mono">
             <span className="flex items-center space-x-1.5">
               <FileCheck className="w-4 h-4 text-[#7EC151]" />
-              <span>fastgamingbd.apk</span>
+              <span>lastgamingbd.apk</span>
             </span>
             <span className="text-[#064E3B] font-black">{downloadProgress}%</span>
           </div>
@@ -169,7 +169,7 @@ export const DownloadModal: React.FC<DownloadModalProps> = ({
             // Create real anchor download trigger
             const link = document.createElement('a');
             link.href = '#';
-            link.setAttribute('download', 'fastgamingbd.apk');
+            link.setAttribute('download', 'lastgamingbd.apk');
             document.body.appendChild(link);
             handleStartDownload();
           }}
