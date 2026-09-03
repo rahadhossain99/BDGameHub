@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { LiveTicker } from './components/LiveTicker';
 import { LivePlayersTicker } from './components/LivePlayersTicker';
 import { HeroSection } from './components/HeroSection';
+import { GameEcosystemShowcase } from './components/GameEcosystemShowcase';
 import { TutorialSection } from './components/TutorialSection';
 import { HowToStartSection } from './components/HowToStartSection';
 import { TournamentsSection } from './components/TournamentsSection';
@@ -148,6 +149,13 @@ export default function App() {
               onOpenDownloadModal={handleOpenDownloadModal}
             />
 
+            {/* Unified Ecosystem Showcase: Game Arenas, Live Champions, and Player Reviews */}
+            <GameEcosystemShowcase
+              currentLang={currentLang}
+              onOpenDownloadModal={handleOpenDownloadModal}
+              onNavigate={handleNavigate}
+            />
+
             {/* Dedicated YouTube Tutorial & Interactive Walkthrough Section */}
             <TutorialSection
               currentLang={currentLang}
@@ -205,6 +213,11 @@ export default function App() {
             <TournamentsSection
               currentLang={currentLang}
               onOpenDownloadModal={handleOpenDownloadModal}
+            />
+            <GameEcosystemShowcase
+              currentLang={currentLang}
+              onOpenDownloadModal={handleOpenDownloadModal}
+              onNavigate={handleNavigate}
             />
           </div>
         )}
